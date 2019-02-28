@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.formulirnayli.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Hasil Pendaftaran"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:text="Nama"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNama"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:text="Tahun"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/txtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTahun"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:text="Alamat"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTelepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAlamat"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:text="Nomor Telepon"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelepon"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:text="Alamat Email"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
